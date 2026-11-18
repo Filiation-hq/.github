@@ -4,13 +4,13 @@
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/company/recension"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="LinkedIn" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
+  <a href="https://www.linkedin.com/company/recensionhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="LinkedIn" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
   &nbsp;
-  <a href="https://www.youtube.com/@recension"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-youtube-dark.svg" /><img alt="YouTube" src="./tiles/pill-youtube-light.svg" height="40" /></picture></a>
+  <a href="https://www.youtube.com/@recensionhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-youtube-dark.svg" /><img alt="YouTube" src="./tiles/pill-youtube-light.svg" height="40" /></picture></a>
   &nbsp;
-  <a href="https://x.com/recension"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-x-dark.svg" /><img alt="X" src="./tiles/pill-x-light.svg" height="40" /></picture></a>
+  <a href="https://x.com/recensionhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-x-dark.svg" /><img alt="X" src="./tiles/pill-x-light.svg" height="40" /></picture></a>
   &nbsp;
-  <a href="mailto:srocca2000@outlook.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-email-dark.svg" /><img alt="Email" src="./tiles/pill-email-light.svg" height="40" /></picture></a>
+  <a href="mailto:recensionhq@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-email-dark.svg" /><img alt="Email" src="./tiles/pill-email-light.svg" height="40" /></picture></a>
 </p>
 
 <picture>
