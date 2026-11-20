@@ -1,16 +1,18 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./tiles/hero-dark.svg" />
-  <img alt="Recension. Know the lineage. The citable record of FDA 510(k) device lineage." src="./tiles/hero-light.svg" width="100%" />
+  <img alt="Filiation. Know the lineage. The citable record of FDA 510(k) device lineage." src="./tiles/hero-light.svg" width="100%" />
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/company/recensionhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="LinkedIn" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
+  <a href="https://filiation.org"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="Website" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
   &nbsp;
-  <a href="https://www.youtube.com/@recensionhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-youtube-dark.svg" /><img alt="YouTube" src="./tiles/pill-youtube-light.svg" height="40" /></picture></a>
+  <a href="https://www.linkedin.com/company/filiation"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="LinkedIn" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
   &nbsp;
-  <a href="https://x.com/recensionhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-x-dark.svg" /><img alt="X" src="./tiles/pill-x-light.svg" height="40" /></picture></a>
+  <a href="https://www.youtube.com/@filiationhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-youtube-dark.svg" /><img alt="YouTube" src="./tiles/pill-youtube-light.svg" height="40" /></picture></a>
   &nbsp;
-  <a href="mailto:recensionhq@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-email-dark.svg" /><img alt="Email" src="./tiles/pill-email-light.svg" height="40" /></picture></a>
+  <a href="https://x.com/filiationhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-x-dark.svg" /><img alt="X" src="./tiles/pill-x-light.svg" height="40" /></picture></a>
+  &nbsp;
+  <a href="mailto:filiationhq@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-email-dark.svg" /><img alt="Email" src="./tiles/pill-email-light.svg" height="40" /></picture></a>
 </p>
 
 <picture>
