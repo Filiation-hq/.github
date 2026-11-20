@@ -6,7 +6,7 @@
 <p align="center">
   <a href="https://filiation.org"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="Website" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
   &nbsp;
-  <a href="https://www.linkedin.com/company/filiation"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="LinkedIn" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
+  <a href="https://www.linkedin.com/company/filiation"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-website-dark.svg" /><img alt="LinkedIn" src="./tiles/pill-website-light.svg" height="40" /></picture></a>
   &nbsp;
   <a href="https://www.youtube.com/@filiationhq"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-youtube-dark.svg" /><img alt="YouTube" src="./tiles/pill-youtube-light.svg" height="40" /></picture></a>
   &nbsp;
