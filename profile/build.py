@@ -1,6 +1,6 @@
-"""Generates the Recension org README tiles (light + dark) into profile/tiles/.
+"""Generates the Filiation org README tiles (light + dark) into profile/tiles/.
 
-Headlines are set in Recension Condensed and converted to outlines, so they
+Headlines are set in Filiation Condensed and converted to outlines, so they
 render the same everywhere GitHub shows the SVG. Body copy uses IBM Plex with
 system fallbacks.
 
@@ -35,7 +35,7 @@ THEMES = {
 }
 
 
-# ── Recension Condensed → outlines ─────────────────────────────────────────
+# ── Filiation Condensed → outlines ─────────────────────────────────────────
 class Face:
     def __init__(self, path):
         f = TTFont(path)
@@ -62,7 +62,7 @@ class Face:
                 continue
             g = self.cmap.get(ord(ch))
             if g is None:
-                raise ValueError(f"Recension Condensed has no glyph for {ch!r}")
+                raise ValueError(f"Filiation Condensed has no glyph for {ch!r}")
             self.gs[g].draw(TransformPen(pen, (s, 0, 0, -s, cx, y)))
             cx += self.hmtx[g][0] * s + track * size
         d = re.sub(r"-?\d+\.\d+", lambda m: f"{float(m.group()):.1f}", pen.getCommands())
@@ -91,8 +91,8 @@ class Face:
         pen.lineTo((x + 200 * s, y)); pen.lineTo((x + 90 * s, y)); pen.closePath()
 
 
-BOLD = Face(HERE / "fonts" / "RecensionCondensed-Bold.ttf")
-REG = Face(HERE / "fonts" / "RecensionCondensed-Regular.ttf")
+BOLD = Face(HERE / "fonts" / "FiliationCondensed-Bold.ttf")
+REG = Face(HERE / "fonts" / "FiliationCondensed-Regular.ttf")
 
 
 def headline(text, x, y, size, fill, gold, anchor="start", face=BOLD, track=0.01):
@@ -174,7 +174,7 @@ def trails(w, y_base, t, n=7, spread=22, seed=0.0, op=1.0):
 
 
 def tree(cx, top, scale, t, gold_index=4, glow=True):
-    """The Recension lineage tree (same topology as the logo)."""
+    """The Filiation lineage tree (same topology as the logo)."""
     N = [(0, 0, 9), (0, 36, 7.5), (-29, 54, 7.2), (29, 54, 7.2), (0, 70, 8.3),
          (-43, 80, 6.4), (-21, 80, 6.4), (21, 80, 6.4), (42, 80, 6.4), (-13, 101, 6.6), (13, 101, 6.6)]
     E = [(0, 1), (1, 2), (1, 3), (1, 4), (2, 5), (2, 6), (3, 7), (3, 8), (4, 9), (4, 10)]
@@ -201,7 +201,7 @@ for mode, t in THEMES.items():
             + eyebrow(600, 112, "FDA 510(K) · PREDICATE LINEAGE · BUILT IN PUBLIC", t, "middle")
             + headline("KNOW THE LINEAGE.", 600, 222, 78, t["head"], t["gold"], "middle")
             + text(600, 272, "The citable record of FDA 510(k) device lineage.", 24, t["ink"], anchor="middle"))
-    write("hero", mode, svg(1200, 400, "Recension. Know the lineage. The citable record of FDA 510(k) device lineage.", body, t["page"], t))
+    write("hero", mode, svg(1200, 400, "Filiation. Know the lineage. The citable record of FDA 510(k) device lineage.", body, t["page"], t))
 
     # ── The problem (always dark, the "Pro" tile) ──────────────────────
     d = THEMES["dark"]

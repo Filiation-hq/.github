@@ -4,7 +4,7 @@
 </picture>
 
 <p align="center">
-  <a href="https://filiation.org"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-website-dark.svg" /><img alt="Website" src="./tiles/pill-websiten-light.svg" height="40" /></picture></a>
+  <a href="https://filiation.org"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-website-dark.svg" /><img alt="Website" src="./tiles/pill-website-light.svg" height="40" /></picture></a>
   &nbsp;
   <a href="https://www.linkedin.com/company/filiation"><picture><source media="(prefers-color-scheme: dark)" srcset="./tiles/pill-linkedin-dark.svg" /><img alt="LinkedIn" src="./tiles/pill-linkedin-light.svg" height="40" /></picture></a>
   &nbsp;
